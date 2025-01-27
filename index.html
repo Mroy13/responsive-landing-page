@@ -2,231 +2,528 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=3, minimum-scale=0.5" />
-    <title>My App</title>
-    <link rel="stylesheet" href="./src/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=3, minimum-scale=0.5" />
+  <title>My App</title>
+  <link rel="stylesheet" href="./src/style.css">
 </head>
 
 <body class="overflow-x-hidden ">
 
 
-    <!-- Header Section -->
+  <!-- Header Section -->
 
-    <div class="w-auto h-screen">
-        <!-- header background -->
-        <div class="w-full  absolute top-0 z-[-10]">
-            <img src="assets/bg-image.png" class="object-cover w-full h-full" alt="">
+  <div class="w-auto h-screen">
+    <!-- header background -->
+    <div class="w-full h-full absolute top-0 z-[-10]">
+      <img src="assets/bg-image.png" class="w-full h-full" alt="">
+    </div>
+
+    <div class="mt-4 w-1/2 min-h-screen flex space-x-8">
+
+      <div class="w-3/10 flex-shrink-0 relative">
+        <div class="absolute  bottom-0 z-[-10]">
+          <img src="assets/corner-img.png" alt="">
+        </div>
+      </div>
+
+
+      <div class="w-7/10 flex-col">
+
+        <!-- navbar section -->
+        <div class="mb-12 flex flex-wrap space-x-5">
+          <div class="flex flex-wrap space-x-1">
+            <div class="">
+              <img src="assets/comp-logo.png" alt="">
+            </div>
+            <div class=""><b>StartupLand</b></div>
+          </div>
+          <div class="text-[1em]">Home</div>
+          <div class="text-[1em]">Adversite</div>
+          <div class="text-[1em]">Support</div>
+          <div class="text-[1em]">About</div>
         </div>
 
-        <div class="mt-4 w-1/2 min-h-screen flex space-x-8">
+        <!-- description section -->
+        <div class="mb-4">
 
-            <div class="w-3/10 flex-shrink-0 relative">
-                <div class="absolute bottom-0 z-[-10]">
-                    <img src="assets/corner-img.png" alt="">
-                </div>
-            </div>
-
-
-            <div class="w-7/10 flex-col">
-
-                <!-- navbar section -->
-                <div class="mb-12 flex flex-wrap space-x-5">
-                    <div class="flex flex-wrap space-x-1">
-                        <div class="">
-                            <img src="assets/comp-logo.png" alt="">
-                        </div>
-                        <div class=""><b>StartupLand</b></div>
-                    </div>
-                    <div class="text-[1em]">Home</div>
-                    <div class="text-[1em]">Adversite</div>
-                    <div class="text-[1em]">Support</div>
-                    <div class="text-[1em]">About</div>
-                </div>
-
-                <!-- description section -->
-                 <div class="mb-4">
-
-                    <h1 class="font-arvo font-bold text-[3vw] leading-[5vw] tracking-[-1px] text-[#123456]">
-                    A Creative way to <br>
-                    grow your Exciting <br>
-                    Business ideas
-                </h1>
-                 </div> 
-                
-
-                <div class="mb-4">
-                    <p class="text-[1vw] leading-[2vw] font-[DM Sans] font-normal">
-                        Get your blood tests delivered at let home collect<br>
-                        sample from
-                        the victory of the
-                        managments that supplies<br>
-                        best design system
-                        guidelines ever.
-                    </p>
-                   
-                </div>
-
-                <!-- searchBar section-->
-                <div class="mb-4">
-                    <div class="flex space-x-2">
-                        <div class="w-5/10 border-2 rounded-[8px] border-dotted border-grey-600">
-                            <input type="text" 
-                                   class=" w-full border-0 outline-none opacity-40 text-[#02073E] placeholder:text-[1vw] text-[3vh]  text-center" 
-                                   placeholder="Type your domain name">
-                        </div>
-                        <div class="w-3/10 relative rounded-[8px] bg-[#56BBD0]">
-                            <button
-                                class="font-DM-Sans font-bold text-[1vw] tracking-[1px] whitespace-nowrap
-                                       text-white text-center absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-                                Get Started
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- client Details -->
-
-                <div class="mb-4">
-                    <div class="flex flex-wrap space-x-4">
-                        <div class="">Our Clients</div>
-                        <div class="">
-                            <img src="assets/Dropbox_logo.png" alt="">
-                        </div>
-                        <div class="">
-                            <img src="assets/google.png" alt="">
-                        </div>
-
-                        <div class="">
-                            <img src="assets/paypal.png" alt="">
-                        </div>
-
-                    </div>
-                </div>
-
-            </div>
+          <h1 class="font-arvo font-bold text-[3vw] leading-[5vw] tracking-[-1px] text-[#123456]">
+            A Creative way to <br>
+            grow your Exciting <br>
+            Business ideas
+          </h1>
         </div>
 
 
+        <div class="mb-4">
+          <p class="text-[1vw] leading-[2vw] font-[DM Sans] font-normal">
+            Get your blood tests delivered at let home collect<br>
+            sample from
+            the victory of the
+            managments that supplies<br>
+            best design system
+            guidelines ever.
+          </p>
 
-        
-        <!-- services -->
+        </div>
 
+        <!-- searchBar section-->
+        <div class="mb-4">
+          <div class="flex space-x-2">
+            <div class="w-5/10 border-2 rounded-[8px] border-dotted border-grey-600">
+              <input type="text"
+                class=" w-full border-0 outline-none opacity-40 text-[#02073E] placeholder:text-[1vw] text-[3vh]  text-center"
+                placeholder="Type your domain name">
+            </div>
+            <div class="w-3/10 relative rounded-[8px] bg-[#56BBD0]">
+              <button class="font-DM-Sans font-bold text-[1vw] tracking-[1px] whitespace-nowrap
+                       text-white text-center absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                Get Started
+              </button>
+            </div>
+          </div>
+        </div>
 
-        <div class="flex justify-center items-center min-h-screen bg-gray-100">
-            <div class="w-full max-w-5xl p-6">
+        <!-- client Details -->
 
-                <div class="text-center mb-2">
-                    <h4 class="text-sm font-medium" style="color: #00A99D;">Ideal solutions for you</h4>
-                  </div>
-              <h2 class="text-2xl font-semibold text-center mb-6">Go beyond ultimate features</h2>
+        <div class="mb-4">
+          <div class="flex flex-wrap space-x-4">
+            <div class="">Our Clients</div>
+            <div class="">
+              <img src="assets/Dropbox_logo.png" alt="">
+            </div>
+            <div class="">
+              <img src="assets/google.png" alt="">
+            </div>
 
-              <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="">
+              <img src="assets/paypal.png" alt="">
+            </div>
 
-                <div class="bg-white p-4 rounded-lg shadow-lg">
-                    <div class="flex justify-center mb-6">
-                      <img src="public/assets/icon.png" alt="Logo 1" class="h-8 w-8">
-                    </div>
-                    
-                    <h3 class="text-xl font-semibold text-center mb-6">Email Subscription</h3>
-                    
-                    <p class="text-gray-600 text-center mb-6">We’re driven beyond just finishing projects. We want to find smart solutions.</p>
-                    
-                    <div class="flex justify-center items-center text-blue-500 cursor-pointer">
-                      <span class="mr-2">Learn More</span>
-                      <span>&gt;</span>
-                    </div>
-                  </div>
-                  
-                  <div class="bg-white p-4 rounded-lg shadow-lg">
-                    <div class="flex justify-center mb-6">
-                      <img src="public/assets/icon (1).png" alt="Logo 1" class="h-8 w-8">
-                    </div>
-                    
-                    <h3 class="text-xl font-semibold text-center mb-6">Bolt Performance</h3>
-                    
-                    <p class="text-gray-600 text-center mb-6">We’re driven beyond just finishing projects. We want to find smart solutions.</p>
-                    
-                    <div class="flex justify-center items-center text-blue-500 cursor-pointer">
-                      <span class="mr-2">Learn More</span>
-                      <span>&gt;</span>
-                    </div>
-                  </div>
+          </div>
+        </div>
 
-
-                  <div class="bg-white p-4 rounded-lg shadow-lg">
-                    <div class="flex justify-center mb-6">
-                      <img src="public/assets/icon (2).png" alt="Logo 1" class="h-8 w-8">
-                    </div>
-                    
-                    <h3 class="text-xl font-semibold text-center mb-6">Secure Transaction</h3>
-                    
-                    <p class="text-gray-600 text-center mb-6">We’re driven beyond just finishing projects. We want to find smart solutions.</p>
-                    
-                    <div class="flex justify-center items-center text-blue-500 cursor-pointer">
-                      <span class="mr-2">Learn More</span>
-                      <span>&gt;</span>
-                    </div>
-                  </div>
+      </div>
+    </div>
 
 
-                  <div class="bg-white p-4 rounded-lg shadow-lg">
-                    <div class="flex justify-center mb-6">
-                      <img src="public/assets/icon (3).png" alt="Logo 1" class="h-8 w-8">
-                    </div>
-                    
-                    <h3 class="text-xl font-semibold text-center mb-6">Multiple Options</h3>
-                    
-                    <p class="text-gray-600 text-center mb-6">We’re driven beyond just finishing projects. We want to find smart solutions.</p>
-                    
-                    <div class="flex justify-center items-center text-blue-500 cursor-pointer">
-                      <span class="mr-2">Learn More</span>
-                      <span>&gt;</span>
-                    </div>
-                  </div>
 
 
-                  <div class="bg-white p-4 rounded-lg shadow-lg">
-                    <div class="flex justify-center mb-6">
-                      <img src="public/assets/icon (4).png" alt="Logo 1" class="h-8 w-8">
-                    </div>
-                    
-                    <h3 class="text-xl font-semibold text-center mb-6">Customer Support</h3>
-                    
-                    <p class="text-gray-600 text-center mb-6">We’re driven beyond just finishing projects. We want to find smart solutions.</p>
-                    
-                    <div class="flex justify-center items-center text-blue-500 cursor-pointer">
-                      <span class="mr-2">Learn More</span>
-                      <span>&gt;</span>
-                    </div>
-                  </div>
+    <!-- services -->
 
 
-                  <div class="bg-white p-4 rounded-lg shadow-lg">
-                    <div class="flex justify-center mb-6">
-                      <img src="public/assets/icon (5).png" alt="Logo 1" class="h-8 w-8">
-                    </div>
-                    
-                    <h3 class="text-xl font-semibold text-center mb-6">Integrated with Shopify</h3>
-                    
-                    <p class="text-gray-600 text-center mb-6">We’re driven beyond just finishing projects. We want to find smart solutions.</p>
-                    
-                    <div class="flex justify-center items-center text-blue-500 cursor-pointer">
-                      <span class="mr-2">Learn More</span>
-                      <span>&gt;</span>
-                    </div>
-                  </div>
-              </div>
+    <div class="flex justify-center items-center min-h-screen bg-gray-100">
+      <div class="w-full max-w-5xl p-6">
+
+        <div class="text-center mb-2">
+          <h4 class="text-sm font-medium" style="color: #00A99D;">Ideal solutions for you</h4>
+        </div>
+        <h2 class="text-2xl font-semibold text-center mb-6">Go beyond ultimate features</h2>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2">
+
+          <!-- card1 -->
+
+          <div class="bg-grey-10 p-4 rounded-lg shadow-lg hover:bg-white hover:-translate-y-4 transition duration-300">
+            <div class="flex justify-center mb-6">
+              <img src="public/assets/icon.png" alt="Logo 1" class="h-8 w-8">
+            </div>
+
+            <h3 class="text-xl font-semibold text-center mb-6">Email Subscription</h3>
+
+            <p class="text-gray-600 text-center mb-6">We’re driven beyond just finishing projects. We want to find smart
+              solutions.</p>
+
+            <div class="flex justify-center items-center text-blue-500 cursor-pointer">
+              <span class="mr-2">Learn More</span>
+              <span>&gt;</span>
+            </div>
+          </div>
+
+          <!-- card2-->
+
+          <div class="bg-grey-10 p-4 rounded-lg shadow-lg hover:bg-white hover:-translate-y-4 transition duration-300">
+            <div class="flex justify-center mb-6">
+              <img src="public/assets/icon (1).png" alt="Logo 1" class="h-8 w-8">
+            </div>
+
+            <h3 class="text-xl font-semibold text-center mb-6">Bolt Performance</h3>
+
+            <p class="text-gray-600 text-center mb-6">We’re driven beyond just finishing projects. We want to find smart
+              solutions.</p>
+
+            <div class="flex justify-center items-center text-blue-500 cursor-pointer">
+              <span class="mr-2">Learn More</span>
+              <span>&gt;</span>
+            </div>
+          </div>
+
+          <!-- card3 -->
+          <div class="bg-grey-10 p-4 rounded-lg shadow-lg hover:bg-white hover:-translate-y-4 transition duration-300">
+            <div class="flex justify-center mb-6">
+              <img src="public/assets/icon (2).png" alt="Logo 1" class="h-8 w-8">
+            </div>
+
+            <h3 class="text-xl font-semibold text-center mb-6">Secure Transaction</h3>
+
+            <p class="text-gray-600 text-center mb-6">We’re driven beyond just finishing projects. We want to find smart
+              solutions.</p>
+
+            <div class="flex justify-center items-center text-blue-500 cursor-pointer">
+              <span class="mr-2">Learn More</span>
+              <span>&gt;</span>
+            </div>
+          </div>
+
+
+          <!-- card4 -->
+          <div class="bg-grey-10 p-4 rounded-lg shadow-lg hover:bg-white hover:-translate-y-4 transition duration-300">
+            <div class="flex justify-center mb-6">
+              <img src="public/assets/icon (3).png" alt="Logo 1" class="h-8 w-8">
+            </div>
+
+            <h3 class="text-xl font-semibold text-center mb-6">Multiple Options</h3>
+
+            <p class="text-gray-600 text-center mb-6">We’re driven beyond just finishing projects. We want to find smart
+              solutions.</p>
+
+            <div class="flex justify-center items-center text-blue-500 cursor-pointer">
+              <span class="mr-2">Learn More</span>
+              <span>&gt;</span>
+            </div>
+          </div>
+
+
+          <!-- card5 -->
+          <div class="bg-grey-10 p-4 rounded-lg shadow-lg hover:bg-white hover:-translate-y-4 transition duration-300">
+            <div class="flex justify-center mb-6">
+              <img src="public/assets/icon (4).png" alt="Logo 1" class="h-8 w-8">
+            </div>
+
+            <h3 class="text-xl font-semibold text-center mb-6">Customer Support</h3>
+
+            <p class="text-gray-600 text-center mb-6">We’re driven beyond just finishing projects. We want to find smart
+              solutions.</p>
+
+            <div class="flex justify-center items-center text-blue-500 cursor-pointer">
+              <span class="mr-2">Learn More</span>
+              <span>&gt;</span>
             </div>
           </div>
 
 
 
-          <!-- Our Commitment section-->
-          
-        <div class=" h-screen bg-green-50">
-            hello3
+          <!-- card6 -->
+          <div class="bg-grey-10 p-4 rounded-lg shadow-lg hover:bg-white hover:-translate-y-4 transition duration-300">
+            <div class="flex justify-center mb-6">
+              <img src="public/assets/icon (5).png" alt="Logo 1" class="h-8 w-8">
+            </div>
+
+            <h3 class="text-xl font-semibold text-center mb-6">Integrated with Shopify</h3>
+
+            <p class="text-gray-600 text-center mb-6">We’re driven beyond just finishing projects. We want to find smart
+              solutions.</p>
+
+            <div class="flex justify-center items-center text-blue-500 cursor-pointer">
+              <span class="mr-2">Learn More</span>
+              <span>&gt;</span>
+            </div>
+          </div>
         </div>
+      </div>
+    </div>
+
+
+
+    <!-- Our Commitment section-->
+
+    <div class="flex gap-0 flex-wrap">
+      <div class="w-1/2 p-6">
+        <img src="public/assets/section3-img.png" alt="">
+      </div>
+      <div class="w-1/2">
+
+        <div class="lg:pt-30 pl-10 sm:pt-5 supportDesc">
+          <div class="mb-5">
+            <h3 class="font-arvo font-bold text-[2vw] leading-[3vw] tracking-[-1px] text-[#123456]">
+              Customer support is our main priority with their hundred <br>
+              percent satisfaction.
+            </h3>
+          </div>
+          <div class="mb-5">
+            <p class="text-[1vw] leading-[2vw] font-[DM Sans] font-normal">
+              Get your tests delivered at let home collect sample from the victory <br>
+              of the managements that supplies the best design system guidelines ever.
+            </p>
+          </div>
+
+
+
+          <div class="mb-5 featCheck">
+            <div class="grid grid-cols-2 grid-rows-2 gap-y-3 grid-cols-[1fr_2fr] gap-x-0">
+              <div class="flex items-center  gap-2">
+                <div class="flex items-center justify-center text-white rounded-full h-8 w-8"
+                  style="background-color: #56BBD0;">
+                  <span class="text-lg">&check;</span>
+                </div>
+                <span class="text-lg font-semibold">HSAs and FSAs</span>
+              </div>
+
+              <div class="flex items-center  gap-2">
+                <div class="flex items-center justify-center  text-white rounded-full h-8 w-8"
+                  style="background-color: #56BBD0;">
+                  <span class="text-lg">&check;</span>
+                </div>
+                <span class="text-lg font-semibold">Commuter Benefits</span>
+              </div>
+
+              <div class="flex items-center  gap-2">
+                <div class="flex items-center justify-center text-white rounded-full h-8 w-8"
+                  style="background-color: #56BBD0;">
+                  <span class="text-lg">&check;</span>
+                </div>
+                <span class="text-lg font-semibold">Life insurance</span>
+              </div>
+
+              <div class="flex items-center  gap-2">
+                <div class="flex items-center justify-center text-white rounded-full h-8 w-8"
+                  style="background-color: #56BBD0;">
+                  <span class="text-lg">&check;</span>
+                </div>
+                <span class="text-lg font-semibold">Commuter benefits</span>
+              </div>
+            </div>
+
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+    <!-- pricing section -->
+
+    <div class="py-16 bg-white">
+      <div class="text-center mb-12">
+        <p class="text-green-500 text-lg font-semibold">Deal for your business</p>
+        <h2 class="text-4xl font-bold text-gray-800">Meet our pricing plan that suits you</h2>
+      </div>
+      <div class="container mx-auto grid grid-cols-1 md:grid-cols-5 gap-2 ">
+
+        <!-- Rating Aspect Column -->
+        <div  class="col-span-1 space-y-7 mt-30">
+          <div class="">
+            <h3 class="text-lg font-semibold text-gray-700">Feature Access Library</h3>
+          </div>
+
+          <div>
+            <h3 class="text-lg font-semibold text-gray-700">Multiple Users</h3>
+          </div>
+          
+          <div>
+            <h3 class="text-lg font-semibold text-gray-700">Refund Policy</h3>
+          </div>
+
+          <div>
+            <h3 class="text-lg font-semibold text-gray-700">Google Analytics</h3>
+          </div>
+
+          <div>
+            <h3 class="text-lg font-semibold text-gray-700">24/7 Support</h3>
+          </div>
+        </div>
+
+
+        <!-- Pricing Cards Column -->
+
+        <!-- Starter Pack -->
+        
+          <div class="border w-full border-gray-200 rounded-lg p-6 shadow-md text-center">
+          
+            <h1 class="text-1.5xl  text-gray-400 mb-4">Starter Pack</h1>
+            
+           
+            <p class="text-lg font-bold text-gray-900 mb-6">
+              $18.99<span class="text-sm text-gray-500">/per mo.</span>
+            </p>
+            
+            
+            <div class="mt-6 space-y-8">
+              <div class="flex items-center justify-center text-white rounded-full h-6 w-6 mx-auto"
+                style="background-color:#3CC68A;">
+                <span class="text-base">&check;</span>
+              </div>
+              <div class="flex items-center justify-center text-white rounded-full h-6 w-6 mx-auto"
+                style="background-color:#3CC68A;">
+                <span class="text-base">&check;</span>
+              </div>
+              <div class="flex items-center justify-center text-white rounded-full h-6 w-6 mx-auto"
+                style="background-color:#CED7E1;">
+                <span class="text-base">&times;</span>
+              </div>
+              <div class="flex items-center justify-center text-white rounded-full h-6 w-6 mx-auto"
+                style="background-color:#CED7E1;">
+                <span class="text-base">&times;</span>
+              </div>
+              <div class="flex items-center justify-center text-white rounded-full h-6 w-6 mx-auto"
+                style="background-color:#CED7E1;">
+                <span class="text-base">&times;</span>
+              </div>
+            </div>
+               
+            <button class="mt-6 w-full border border-yellow-300 text-yellow-500 font-semibold py-2 rounded-lg">
+              Choose Plan
+            </button>
+                    
+            <p class="mt-4 text-sm text-gray-500">15 days free trial</p>
+          </div>
+        
+
+
+        <!-- Premium Pack -->
+        <div class="primePack md:-translate-y-6 h-10">
+          <div class="text-center border rounded-lg text-white border-2" style="background-color: #52ACFF;">RECOMENDED</div>
+          <div class="border w-full border-gray-200 bg-white-1000 rounded-lg p-6 shadow-md text-center">
+             
+            <h1 class="text-1.5xl  text-gray-400 mb-4">Premium Pack</h1>
+             
+            <p class="text-lg font-bold text-gray-900 mb-6">
+              $29.99<span class="text-sm text-gray-500">/per mo.</span>
+            </p>
+            
+            <div class="mt-6 space-y-8">
+              <div class="flex items-center justify-center text-white rounded-full h-6 w-6 mx-auto"
+                style="background-color:#3CC68A;">
+                <span class="text-base">&check;</span>
+              </div>
+              <div class="flex items-center justify-center text-white rounded-full h-6 w-6 mx-auto"
+                style="background-color:#3CC68A;">
+                <span class="text-base">&check;</span>
+              </div>
+              <div class="flex items-center justify-center text-white rounded-full h-6 w-6 mx-auto"
+                style="background-color:#3CC68A;">
+                <span class="text-base">&check;</span>
+              </div>
+              <div class="flex items-center justify-center text-white rounded-full h-6 w-6 mx-auto"
+                style="background-color:#3CC68A;;">
+                <span class="text-base">&check;</span>
+              </div>
+              <div class="flex items-center justify-center text-white rounded-full h-6 w-6 mx-auto"
+                style="background-color:#CED7E1;">
+                <span class="text-base">&times;</span>
+              </div>
+            </div>
+        
+            <button class="mt-6 w-full bg-yellow-500 text-white font-semibold py-2 rounded-lg">
+              Choose Plan
+            </button>
+            
+            
+            <p class="mt-4 text-sm text-gray-500">30 days free trial</p>
+          </div>
+        </div>
+        
+
+
+
+        <!-- Custom Pack -->
+
+        
+          <div class="border w-full border-gray-200 rounded-lg p-6 shadow-md text-center">
+          
+            <h1 class="text-1.5xl  text-gray-400 mb-4">Custom Pack</h1>
+            
+            <p class="text-lg font-bold text-gray-900 mb-6">
+              $23.99<span class="text-sm text-gray-500">/per mo.</span>
+            </p>
+            
+            <div class="mt-6 space-y-8">
+              <div class="flex items-center justify-center text-white rounded-full h-6 w-6 mx-auto"
+                style="background-color:#3CC68A;">
+                <span class="text-base">&check;</span>
+              </div>
+              <div class="flex items-center justify-center text-white rounded-full h-6 w-6 mx-auto"
+                style="background-color:#3CC68A;">
+                <span class="text-base">&check;</span>
+              </div>
+              <div class="flex items-center justify-center text-white rounded-full h-6 w-6 mx-auto"
+                style="background-color:#3CC68A;">
+                <span class="text-base">&check;</span>
+              </div>
+              <div class="flex items-center justify-center text-white rounded-full h-6 w-6 mx-auto"
+                style="background-color:#3CC68A;">
+                <span class="text-base">&check;</span>
+              </div>
+              <div class="flex items-center justify-center text-white rounded-full h-6 w-6 mx-auto"
+                style="background-color:#CED7E1;">
+                <span class="text-base">&times;</span>
+              </div>
+            </div>
+        
+           
+            <button class="mt-6 w-full border border-yellow-300 text-yellow-500 font-semibold py-2 rounded-lg">
+              Choose Plan
+            </button>
+            
+            <p class="mt-4 text-sm text-gray-500">30 days free trial</p>
+          </div>
+        
+
+        <!-- Ultimate Pack -->
+
+
+        
+          <div class="border w-full border-gray-200 rounded-lg p-6 shadow-md text-center">
+          
+            <h1 class="text-1.5xl  text-gray-400 mb-4">Ultimate Pack</h1>
+            
+            <p class="text-lg font-bold text-gray-900 mb-6">
+              $18.99<span class="text-sm text-gray-500">/per mo.</span>
+            </p>
+            
+            <div class="mt-6 space-y-8">
+              <div class="flex items-center justify-center text-white rounded-full h-6 w-6 mx-auto"
+                style="background-color:#3CC68A;">
+                <span class="text-base">&check;</span>
+              </div>
+              <div class="flex items-center justify-center text-white rounded-full h-6 w-6 mx-auto"
+                style="background-color:#3CC68A;">
+                <span class="text-base">&check;</span>
+              </div>
+              <div class="flex items-center justify-center text-white rounded-full h-6 w-6 mx-auto"
+                style="background-color:#3CC68A;">
+                <span class="text-base">&check;</span>
+              </div>
+              <div class="flex items-center justify-center text-white rounded-full h-6 w-6 mx-auto"
+                style="background-color:#3CC68A;">
+                <span class="text-base">&check;</span>
+              </div>
+              <div class="flex items-center justify-center text-white rounded-full h-6 w-6 mx-auto"
+                style="background-color:#3CC68A;">
+                <span class="text-base">&check;</span>
+              </div>
+            </div>
+        
+            <button class="mt-6 w-full border border-yellow-300 text-yellow-500 font-semibold py-2 rounded-lg">
+              Choose Plan
+            </button>
+            
+            <p class="mt-4 text-sm text-gray-500">45 days free trial</p>
+          </div>
+       
+
+
+      </div>
+    </div>
+
+
+
+
+    
 
 </body>
 

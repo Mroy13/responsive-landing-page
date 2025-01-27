@@ -1,4 +1,23 @@
 @import "tailwindcss";
+
+@media (max-width: 640px) {
+  .featCheck {
+    display: none;
+  }
+  .supportDesc {
+    padding-top: 50px;
+    padding-left: 3px;
+  }
+  
+}
+@media (max-width: 770px) {
+  .primePack{
+    height:auto;
+  
+  }
+  
+}
+
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
