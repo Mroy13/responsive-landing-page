@@ -1,0 +1,873 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=3, minimum-scale=0.5" />
+  <title>My App</title>
+  <link rel="stylesheet" crossorigin href="/responsive-landing-page/assets/index-C7kjucTx.css">
+</head>
+
+<body class="overflow-x-hidden ">
+
+  <!-- main container -->
+  <div class="mainContainer h-screen w-full">
+
+    <!-- Header Section -->
+
+    <div class="">
+
+      <!-- header background -->
+      <div class="w-full h-full absolute top-0 z-[-10]">
+        <img src="/responsive-landing-page/assets/bg-image-wimWF7Ew.png" class="w-full h-full" alt="">
+      </div>
+
+      <div class="mt-4 w-1/2 min-h-screen flex space-x-8">
+
+        <div class="w-3/10 flex-shrink-0 relative">
+          <div class="absolute  bottom-0 z-[-10]">
+            <img src="/responsive-landing-page/assets/corner-img-D_L6r3vf.png" alt="">
+          </div>
+        </div>
+
+
+        <div class="w-7/10 flex-col">
+
+          <!-- navbar section -->
+          <div class="mb-12 flex flex-wrap space-x-5">
+            <div class="flex flex-wrap space-x-1">
+              <div class="">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAlCAYAAACzpJKIAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAbUSURBVHgBjVfPb1RVFD7nzZs3087ATCmVH10wrlxCXbkDjJq4gFBjSEhMhIVr619Q/Q9gYWJYSLoycdMajMSIdBoFNS7sUjTIEKOJC+IoAZu27x6/c86986NQ5aWv7/483/nO/e65d5ie9llebtNW40xGdDwIH2PmDlrbIkLEWZ9EepnwesilS6+/tPQkE/z/INc6VMoCUeVNGGwDRO0zKYaWdYzWx0xxjyjM09lX1p8ODEyyUFsU5gUYFFarzGqYDEzhROv4x96LP7G6ecB9Kss5OvdqL5nMdwHqoGtVOHR8nvnEqcxGhrzACVAbwTUjZ07SRt8VtJ7cndnVq0cRti5K7YQgZtCGmlVYYw+nWfcvWUgdWqJdnfNgY4ouzPe1mu1kxKFcIQ5tQ9GoGJ+AcoCJgFrJlAW0oy3TPtRJ6yWAg44Fro2HbjCnUXQeD6OqrSKr8OmI+SQSw2bxMu89itFpWzz8ZeqRM7E2Hc2RnbZWh8EbglW3FzGwIwlhYMTWHNFywLhuAjIcHWHJTCzRatBpqe+ezJ9eHwe79lGHgsqboj/J2Si7gdgoKgMtWWSYvHOBpIWRGlr2F/TubyOrFJnxosWZknfKKoBNpl/3Pikuio88ZPBGTPLswDa/hkAc2sov9k6dXhrBwtRrVzpM9bupQSg56uqyTaVYYVy5rsrBxk57i+pg1rjVovs3n+nB0TnqzvXTHHQVJ1RZ6aWovqguiXVTICUFJpW6Kk39Wq5XArVuFnT/m/0wKx2aoOVRBzOqhOOQKOkE3ZBRsmQCtLJEJxLQiKw51uHMJID2fZ3RH98dBhDsFBhTyHF67fuFIRiHY+KTWNm412aQvc3ZJkdG3rifhBRoek3o928BNKHBQl8VfdUSryzS+R8sQWQIeYdGQ8ilG/f6AMA2c9zovpmNqTTykma6W/TrrQNEzbooCBgZM6qJllsUNt72Ff3yQ5fQYOPyUAJpc8qIMEbSU6NC9MyNkn9Z3Ud0YBYHA3yuIBoV0bKuqSBRMN4+TW4+m0fJxyQYlR1VmJItp6xuQ0pra2IBDnaJfl6bAtBBZaJJGJspWMgFoBFI6y14cTSHnT6AWkNGg7QkcdOy510e7PO9OcvB65v8Uxeq29cirqO5IsoCXzivIAg1o01yTQAGeiYH1bsYNhdjRMP9xunQwIzAMXFA3iSHV0v+8XoD58IEkCeNBWvowIjzYCEUjba1w1RmTpzIAbQGZnMJIm5UL8VdZnkRd4F6hWn2RuDbCjQFRtMtkaK0UKlx5CPfj3HtnGlkmdMR+BI+GY0fDMfMKETxRdblei402w105zO0IHS0t04CYqY6lbmuWVHqZsb6wYEqmBVJmShXyynkxjqy8gYuLNyOCW5EeHbMUw0OzK4GvvMptHHoEAliCTBhgIiqLhc/40yFwiMC0X58g4U4o5MXNHdd4iT6dMyyh06jOrumQCjtb4MNJNeCIsBKnA3b5jUWxoQstIVYnYrYVwt/+YEQNi5iSD/dMSSqUFH3rgopELcbxPuapJmW92BxqvBEwwOjHkr9wopljZg9tE/bNQJ56DnYyXf6FLL3aMezp0v09xfAVwnOtDwjNHMYxOQiRAbBjYKBAjHWCixsrI5DWRy0vDd+4el+oNeC48pvD3Ldg+vkqWtmimSqaUmZphrwkkcyhe0nWzvL/rmls0HfoD+T8+MXHvlnHv/vNb9ienCDfLCKYWYPZQXqDbCqedg8fDIMJVglpmCtitQ18xyp3xDWKmNgS59vUP9UZ/O2vGC5Tb06hHTUqFrsNRkyznusAdta5BBIVfS1NOVtohkfbRTXS9toid6YXxq/pL58+Tw9CgseCtQLdM807ZC0TD+BOKnxzNKQhSduaPZQxtANtgGZ/Glz0/QwDpaHRT9CTKJEyqrwOtYJIQ2WDQRi9HUImhk8HalDeQx9Jinbo6G8SOfO9cbBzlw+Rttlx4CUBYzzgUkr225DWCwbVKIAFKhKfuFxUUShoL2irXb29ah8NFD5OLMqDQ/H6UksNOlEr6NPdK0qIZ1Vnh08nMrOmdhBbGfhn7JdnqT5C/0ngD3sUbVGg9N4qu6qSx4X7HvGQ8YKyLnE7B7npBseKZC8SPMevvQMpb+CjV3BD4rcWdjpCDyqCyVpWyZQdjFrxGzBxmp4wCN028/T/Nmx32bjYPrUsguQat9O22ZGg3tEXZxFjutdoWkqWLqydSI/3WNevUTlw7mdjGjgx87nrfeP4dKzTM9Nd3h6wlWmVzcF0x8JxWNT+pRlK7QFee8CsjtYei5/fD5rZidCTkfBALdm/IzSsy2v9C1UzOtUhjWs9cqoCP7r+RfR887iZddkQwAAAABJRU5ErkJggg==" alt="">
+              </div>
+              <div class=""><b>StartupLand</b></div>
+            </div>
+            <div class="text-[1em]">Home</div>
+            <div class="text-[1em]">Adversite</div>
+            <div class="text-[1em]">Support</div>
+            <div class="text-[1em]">About</div>
+            <a href="/contact.html">Contact</a>
+          </div>
+
+          <!-- description section -->
+          <div class="mb-4">
+
+            <h1 class="font-arvo font-bold text-[3vw] leading-[5vw] tracking-[-1px] text-[#123456]">
+              A Creative way to <br>
+              grow your Exciting <br>
+              Business ideas
+            </h1>
+          </div>
+
+
+          <div class="mb-4">
+            <p class="text-[1vw] leading-[2vw] font-[DM Sans] font-normal">
+              Get your blood tests delivered at let home collect<br>
+              sample from
+              the victory of the
+              managments that supplies<br>
+              best design system
+              guidelines ever.
+            </p>
+
+          </div>
+
+          <!-- searchBar section-->
+          <div class="mb-4">
+            <div class="flex space-x-2">
+              <div class="w-5/10 border-2 rounded-[8px] border-dotted border-grey-600">
+                <input type="text"
+                  class=" w-full border-0 outline-none opacity-40 text-[#02073E] placeholder:text-[1vw] text-[3vh]  text-center"
+                  placeholder="Type your domain name">
+              </div>
+              <div class="w-3/10 relative rounded-[8px] bg-[#56BBD0]">
+                <button class="font-DM-Sans font-bold text-[1vw] tracking-[1px] whitespace-nowrap
+                       text-white text-center absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                  Get Started
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- client Details -->
+
+          <div class="mb-4">
+            <div class="flex flex-wrap space-x-4">
+              <div class="">Our Clients</div>
+              <div class="">
+                <img src="data:image/png;base64,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" alt="">
+              </div>
+              <div class="">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFUAAAAcCAYAAAAQovP+AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAzLSURBVHgB7VlpcFVFFu7ue9+WFRMCLlgaFXRYBSKEEJbHIiEsMy5kLGZAQEUdR6yRsbSG0YkyizXlOI4yVYKoWIqMGRXUkIUkPAiYkBBQNgEBFQQlJCSQ7eW9d2+f+frelxDiC6IyP6Q89Zbby+k+/fXpc06fy1kEqqqqclQ3moMYmV5Oupdz6ovq7pwxIsZPcG5+Iple4hC8pL76s0+ysrJMdhHQe8XFPTURP1w9E4WOTx03Yjvn3GDfkXjnipW5my5J8DgXcM5uJ8ZuQJUekZGzEBDewTgtT4rVX0lJSQmxHzm9v75yjIPRu1aBeF4oXtw7PSWlhX1HEh0L6zDoJVHOUkCdDUD7MxtQAvLVnNE+1O3HFp4ki5gDbSlofbG2Qb6/pnDjlexHToJba0pQX6w3prXRLdj3oHYtzF2/ZahB9Dw0sH9bHZ73mMRXcsE/1jRexwMBgWOfiMmHonU28L5G9ZNc9ozV9e8lwMVIFqgFBWXXQfNeg4b2s2qJvuKML+4ep73cxbHOLSzc8Qw5/A9LJvoxzfHgeO+QGvYTWWRpF3fqD0ItLUABbosQ/A8NJw+f005OmjSoucEtnwkawYcnjxpcy36idtLzfVXpksw7rRJRgAux+HTNF2+cj0fPSkvz48/PfqKzSOdkjiZG0VYgwKlOCHrr/xUi5eTkaIm9+lxqhijKcAWqM1NTG74L/2rfR91cLBDTVOM/lZXlbTpfPnhVvnp1SYL7khgP89fVZGZmBtgPoKVLqxzJ/WKSZFNda0bGiHoFXMd2XuCrLMCkk8KTP5c5PvV37AKSAjI+8aqRkrG7Mfc0TNnNbiFsHN8jOL3OHcabN6enf9WZF/KItRuq+mqmnM2FFeJdzewwUMJM7YXdf4MJx38yxt54GPEkdebPK6m6ljNjDkzbr1BMDlc3QJZcJsUKKFAGJ4pD3ck4j/lkXUAfqREVWcAQW9Mgomdleftbm5fj88XEMPcUTuIeFEfjqyIFzElHSLJXHC59xcRRKV+qOh2Ct4dCELK0K3DKyso8J1u1Pg6SGjsHEY9qbqzdf1BpuwIlv6TiFizizxj8+rPDYq7GGSgZf4qCztTNm/ctSE+/4Sxg8zZ8OESQ4wVY/hQ6O14WXDlVoicZBdPz8soeQN3hjrxriyv6MGYsAaBedjZvHIC8gwtKgXy9IFIU6o5WBwJPOyKH5FCM3c541vRbSXwhit07LgKfq/C7yDDMAbmbds6fOmpgvRolob2LQz/EuqD6Jv16Xaci4qI7Owdx1nrQlfCzdDxW5/kqbsHqXwsLrgLeA/jZjhgQu09XQdtGYCOjUb6tMdiQWFxcfseECSOq1TAFGyrSocurwZuotBB9v4ZeVOG5HiHcZai5CYAprZ8i3HrvdRu3TL15TOoBNU/hxopkabActA+ypaI68FegfAKFJM5FKur6cM6+lbKzs0Vc96ZHYUGeZLZWhLCZVXjaBdk92OxhGKs31nW7FvInIJKaAe8P5Q2TMCyV/kGESaJJntZyCsoSBLFFbYCCtpiGnG/EiXkVpfnzAfBcAPQE5GwOc6ZD2l+oJ5/vcxekuge2/hKrhegYSbnATzR3S+nauaY052KRj2Mym5ezZEni19k+n61qJr8HdQNteagGZ3mh5vbMaao9fJcWMuYSk49g7pPns56Ukd7rsSbIYgFqciZXmZLuqigtuL9Xj+i7DVPeh5avbDHYMO7SJ+t4qsbMl6tKScEB+NsWcXRNr2cUWsPPgHQGSOKxEDyD2XbGNKWboh3y58zOGahbxOewbbOmTUw7eIYr+yjs7b/ieiY7yCSlBS7StIUwA282th5PxgGfgYWrkO+kANiTJqR2kCv7GH6W5BVX1kOJX1XzSinnDiW5rMC3zSPJuMteI2vCEA9njL1pZQebewKb9Oq6jdtciHr+gU4e1gXFeFyCNztvg5ZfYWs1bXIlX3pvRnJya3FFReLh480jHJqYIQmnnVsKFYOxZ0Ne9nk7OJxndDXBlPGDjyTFa79pqI2e2/lLAflYmwfEoPXx8SGJpIvKGzjDdaUZ3o6A2qTsbtAwito0Dsep2+lQ7bWSCxwp7g5322K2sgORZPJorASjHwrzXuHRYi83jZCKt22gODslgqF1nZ2YKhtGS4lthromw3/aiU3pHd5cBs+6Kvjpp1qer/yXoWa+DLXLMfDssKKZ+N8ER/aGrnFtnUkyE5VuCJaRW1KWNnV8Wtk3p+CUksIiXgbyN2ydwqR02utge1oNI6gxZ08W9kySUWUXcjOXEbVfOloVqAlA3wWvfKng5rU4Gm0I7G1qOtwcibeGNTfFsqj9zE78iJaQmYzLcqJaiz01HZw0aeSJSLxTJow+kL++ohGPSawLkiHhJN3s0VYWJKaZevxTnHhPpZew6yGA+hGUsdip6a9OGD1kn9owwYS5HgKcsriIYjjX5uUdOOBi50m5yGpxKWeGiyq+3SHr6xEHyvaUmSY0d1f8oagGtRltLoOE0ENwhsG2djQ4kpKSIroUp8OBNZxx2S7dEURQgaijXTO7nBfpTWX6zumq3G4cbEntMTvwmooJlbKojNIuVDzKHTTn6AFt0cQxQ/e2nQihPCY4/4R+AXTSoB/zxNG6Z/JKtyexb6H3ist7alGuFxA0Wk4BAhwROn9r2rRpfkbaQUhsAyvNW8q+/DKi7RKGcwzEtR2SlC2S9INMiCp1X7bqGBsZdCYkROKNkY7L0CEl3M9vaOYn4DsIFbLTdcR7F2yu7BeJt66BhjFiEcdtI7+p+RHOHbKHt5BskpKWQl9GVm4afuPkccP/OXn0iJ3z5w814Fzd6pJhrUn9OCV/BygXWXzqnEs2j5vG3wsLK5K7mjB3U+U1LiGeBcttYZtDgotlk8YM+0LtGBd6lWy/wvIBp/Yfn9I2aRsV7tgRjSM0i0hazg+KsydKnD4WIHMX5DhuA0MDDL9/Ruf5VSI9ZNBD6NfT4iW22zS1ulPNLTtRbPPssTJAs1Tfjrw5u3c7TWZmMesm2TV1Yw4DCvMRHoM2WDzgEPT65Akjy7OzeXvUtDI/P7ZV1ixeW7x1vL2OMOXlQTM9oaUQbjprN2iWpq0H0qVMyKOcaWimKzRiaTgT3jOek1qR/3uBgicfb7sCZmeTSB1dsRy8c5ntOpsB9hKMWGwI1gLcr8YkCwDK8DB4J0weypw6btS2nBzSYhK3PCaE+CP4lX0M4jSt0CS97ZdmvcfhuZRY6G7s0VRLVs4aIdh9k7zDVqkNXVtUMRPB/Ut4VpuFM0z/BSCv4xJXY8fZ/E5INIPOrP9oK28Z4GDRKZ1vVOo5hjW/j7LXqkckIyn0NDHXDoGQg5iJeBeXAs4HYxEGTsdfztKcfF/51QBnMTrcwb6Z8ZfhTehshwA8LXVIWhwO3NtpbXFpH427VkE/h4SrlH36GhrrD9umuHA9DD7/W5PbeDqcpGHv5Pl6RbujVpJ9JbRgx+cY+p1CPjcJYPdsn4hoBYzXQ5mZdi6hqKoq3jhtLAHDzPApgq+kWjgUlU1LxHMPzs8K/bsEVV1TC0sq00xOb4Ghl92dw7zIIxwOCYVe2LT48DgtcFP3RTTUeevLxgim34/OacweqHM/ZWMUgBUI8J8v35S/ATcPGWmsgtKqyxDmLBbEp2GzkjqNpbznTnyfnTJu+KrwuO2kzINZ3/oEDtpM1r6gNhxJmYtP8fNiY+3hfyM8C3ZsVzYuYNY8QoLmoe9VHUFE+RRKa/E/BZh3awfVjBqgCdzErE68INQsHpg+3X6dsraobAAX2l9xEMZiCTFnr1LidPJyyPL4ZG/q5i69H65bCeTUBxOXg2Et+9raIRF/ijr87UeK8OOWYGj7rV2ELB2pqKgoPiRiRguujYXK9IMdjYL2IhEuyqRp+LZ+GNibne2N+ILNh0SGX3rU5t4sBBsk7YtGHZe8EvFsUXMPz9as/v2DXfAC2NgRJMzJKKrTEo1d+4xL+iDEzEO60D/gtk0+GmgI9XUmSLcw9aGKV+OOap1Sdnm9Z178fVBSdoUmtfFcJy+2/zrrBQwSKpBno1OaxePGpX1m+RN2kZKVVeKu3k1Otq/NpHSkAl/5BCnFu9DYWHw/zvAOH8wuEF2U75XySirGxZDneS7F8riAPqZzu0pHmlIg6UOWo7WSLReQdHYREg7gBNi3OdajlC/nl5Qvgvps4IHYhqCrtYdGxjREA79n9vobOGnL2AWkixJUYfpfksKtEu9D4BwvxxfxNN9BrqZGnVgP2HIkjkiFWyouzw24Wg+wC0gXrU0tKqq8JiTkc3AcE1nE6yqSKVy83VhTtzArK6OOXUC6aEFVVFhYeaXUaAYyIbdiqQOhliohXgtNRRrRXN0QCK3Jyhx9wV+t/w/Fa91F+UCgRQAAAABJRU5ErkJggg==" alt="">
+              </div>
+
+              <div class="">
+                <img src="data:image/png;base64,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" alt="">
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- services -->
+
+
+    <div class="flex justify-center items-center min-h-screen bg-gray-100">
+      <div class="w-full max-w-5xl p-6">
+
+        <div class="text-center mb-2">
+          <h4 class="text-sm font-medium" style="color: #00A99D;">Ideal solutions for you</h4>
+        </div>
+        <h2 class="text-2xl font-semibold text-center mb-6">Go beyond ultimate features</h2>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2">
+
+          <!-- card1 -->
+
+          <div class="bg-grey-10 p-4 rounded-lg shadow-lg hover:bg-white hover:-translate-y-4 transition duration-300">
+            <div class="flex justify-center mb-6">
+              <img src="data:image/png;base64,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" alt="Logo 1" class="h-8 w-8">
+            </div>
+
+            <h3 class="text-xl font-semibold text-center mb-6">Email Subscription</h3>
+
+            <p class="text-gray-600 text-center mb-6">We’re driven beyond just finishing projects. We want to find smart
+              solutions.</p>
+
+            <div class="flex justify-center items-center text-blue-500 cursor-pointer">
+              <span class="mr-2">Learn More</span>
+              <span>&gt;</span>
+            </div>
+          </div>
+
+          <!-- card2-->
+
+          <div class="bg-grey-10 p-4 rounded-lg shadow-lg hover:bg-white hover:-translate-y-4 transition duration-300">
+            <div class="flex justify-center mb-6">
+              <img src="data:image/png;base64,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" alt="Logo 1" class="h-8 w-8">
+            </div>
+
+            <h3 class="text-xl font-semibold text-center mb-6">Bolt Performance</h3>
+
+            <p class="text-gray-600 text-center mb-6">We’re driven beyond just finishing projects. We want to find smart
+              solutions.</p>
+
+            <div class="flex justify-center items-center text-blue-500 cursor-pointer">
+              <span class="mr-2">Learn More</span>
+              <span>&gt;</span>
+            </div>
+          </div>
+
+          <!-- card3 -->
+          <div class="bg-grey-10 p-4 rounded-lg shadow-lg hover:bg-white hover:-translate-y-4 transition duration-300">
+            <div class="flex justify-center mb-6">
+              <img src="data:image/png;base64,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" alt="Logo 1" class="h-8 w-8">
+            </div>
+
+            <h3 class="text-xl font-semibold text-center mb-6">Secure Transaction</h3>
+
+            <p class="text-gray-600 text-center mb-6">We’re driven beyond just finishing projects. We want to find smart
+              solutions.</p>
+
+            <div class="flex justify-center items-center text-blue-500 cursor-pointer">
+              <span class="mr-2">Learn More</span>
+              <span>&gt;</span>
+            </div>
+          </div>
+
+
+          <!-- card4 -->
+          <div class="bg-grey-10 p-4 rounded-lg shadow-lg hover:bg-white hover:-translate-y-4 transition duration-300">
+            <div class="flex justify-center mb-6">
+              <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAABGCAYAAABxLuKEAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAVPSURBVHgB7ZxPaxtHFMDfG6m0JhB8bS9d9xZaiEoP6aFQOcRueyixKW1j9xD7E8j7Cax8AkmfwDallimUOOQQkEWtQAvNoViBlt6azalXkWISI2tf5q12FWn1b/+NtPrzA7Pa1Xpl/zTz5s3szCKMkNxPpZTcpAAhhQjvA4hU8x3SOs9EQx6ryRc1InoqQJyZZD7Vf1itwohAUEhu73RRLDTuyn9uTX6UlECLEAqUsswKkjg2MfFY31g2QBFKxOR+PEljEnblyzQohY6l9AN984tjiJhIxciqsoVC7HZXDdWggQTZzOatA4iISMQ0SwjujV6Im+gEhRKTK55qCJdSiOoq4xfcJ0jcCxODBASkcFTOIDTOIHZSGNqSX9hZ4bB8FwLiu8RwS4MLl7tAsAOTAEJ+586KDj7xJcauOveBc5HJokqQXPdTtTyLaUppnI4/wAYFDRl3lr3K8SRm8qU4eJczVMz0SHHwJmdoq9SMKdMihSErTnIjMuisgWLyRyc5mLxA64WU1bIOoG9Vaqb3nM1OL0QNXd/8Mt/rvZ5i7LhyFr43HHtqshn/uFe86V2VqJ6dASnMot2l6aJLjFWFEAOn0hNIOlc8SbsPdolpDhvMFgjdsbRDDJeW6WqavUKau8OZbN+xB5kgDJk7t3yd/+L8Jew9/L3v+zc++sDaPvnrX1AJIWTlpjWO0yoxucPyWtxKC0v51P5xBKmDtPZY0xKDYMYq4DpSHEYhR+YurfhqieG8BRDXICa4pTiMQE7a6So0S4xZT0NM6CfFQbmcty+2eGOJkTe/bkMMGCbFQaUcxITlQth7aRgzXqU4KJRjdZqFfdt0rOm/XykOiuQs5n4upbjEjHVY4eqVhUBSHJTIqYMUg+MVwwneP8/+gzBEfp9ZOhGyw3gdxkzpyd+B5XBG/EfUWTGSJmQPIBbDC0HkKJECXGAS15OyRVoM2z9q58X5q8Dnsxzm2tK7Q39PlRQHzBdPorMSEas3PhwoR7UUJvC9a5UMqlajkMLEUgzTS86opDCxFcO0yxmlFCZpTwTUICK2v/7M1/mcx/zy658dx765+YmV+LVzbek966cfew9/g+hAIwkRc/XKO+AP6nGNha7r+L9uGKgm8xhzZFNEJ4iakN/Xc5jTQXNuMcG8xHRhGtwqzcW4SYqKsKeh12COQ03/brXq5DHzUmNDYD7mrSWGCB7AHAshEvetrbV3kdyHORamWX9TYvTtZY4xFZhxZDV6oG98ZfBr8eYg3IMZRyTfas16aInRN1YqUo8BMwsZmW9vtmJtR1+JS40cWA41765wVIawRNsh9AYKke3Yd5+QL5aeycMazBRk7GysLrUf6RqPIcBtmDHcpYXpEtOMNbPUQuF+5vvuhV89R/AILrnUzEI3oUZQ79ka9xTDbbnMhqe++UaBO07e4qbvmK++uZInwgJMKXLMpdCrCjkMHgy/SGSnc7yGqvrm6sAVegPFcFeB8HJ9uhI/Mgga68PO8riQ65Em7+eeTn5+Y0lZ7hdX2vGx9G/S5XiXwni+4Wa1VPLCkxlzqOpHChNozk3usJxHpAxMANz6wMV5Vt9e95WXBZ6MlCuWthCQV8DFdflOjXMxTjsgACEfYfBIA0pkY7iMp8LZu5+q4yaah15YpYenm6MGY4UDLG7b/b1QRPuYlLEJIoN7yIMyWb+oebDOYXkNkRdtKF+fUOHBtShKiBu1j2LiGASJtPyQ2/Kj0hA+UHPLUpUx7dh8+f+B35bGD0rFuOFZ6CIhPjdNc8maRsszRpuTI7XOM3nODmNWZcvyXP6VVTChOsqHd70GOpUZwWxLrC4AAAAASUVORK5CYII=" alt="Logo 1" class="h-8 w-8">
+            </div>
+
+            <h3 class="text-xl font-semibold text-center mb-6">Multiple Options</h3>
+
+            <p class="text-gray-600 text-center mb-6">We’re driven beyond just finishing projects. We want to find smart
+              solutions.</p>
+
+            <div class="flex justify-center items-center text-blue-500 cursor-pointer">
+              <span class="mr-2">Learn More</span>
+              <span>&gt;</span>
+            </div>
+          </div>
+
+
+          <!-- card5 -->
+          <div class="bg-grey-10 p-4 rounded-lg shadow-lg hover:bg-white hover:-translate-y-4 transition duration-300">
+            <div class="flex justify-center mb-6">
+              <img src="data:image/png;base64,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" alt="Logo 1" class="h-8 w-8">
+            </div>
+
+            <h3 class="text-xl font-semibold text-center mb-6">Customer Support</h3>
+
+            <p class="text-gray-600 text-center mb-6">We’re driven beyond just finishing projects. We want to find smart
+              solutions.</p>
+
+            <div class="flex justify-center items-center text-blue-500 cursor-pointer">
+              <span class="mr-2">Learn More</span>
+              <span>&gt;</span>
+            </div>
+          </div>
+
+
+
+          <!-- card6 -->
+          <div class="bg-grey-10 p-4 rounded-lg shadow-lg hover:bg-white hover:-translate-y-4 transition duration-300">
+            <div class="flex justify-center mb-6">
+              <img src="data:image/png;base64,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" alt="Logo 1" class="h-8 w-8">
+            </div>
+
+            <h3 class="text-xl font-semibold text-center mb-6">Integrated with Shopify</h3>
+
+            <p class="text-gray-600 text-center mb-6">We’re driven beyond just finishing projects. We want to find smart
+              solutions.</p>
+
+            <div class="flex justify-center items-center text-blue-500 cursor-pointer">
+              <span class="mr-2">Learn More</span>
+              <span>&gt;</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- Our Commitment section-->
+
+    <div class="flex gap-0 flex-wrap">
+      <div class="w-1/2 p-6">
+        <img src="/responsive-landing-page/assets/section3-img-BKtx8eD8.png" alt="">
+      </div>
+      <div class="w-1/2">
+
+        <div class="lg:pt-30 pl-10 sm:pt-5 supportDesc">
+          <div class="mb-5">
+            <h3 class="font-arvo font-bold text-[2vw] leading-[3vw] tracking-[-1px] text-[#123456]">
+              Customer support is our main priority with their hundred <br>
+              percent satisfaction.
+            </h3>
+          </div>
+          <div class="mb-5">
+            <p class="text-[1vw] leading-[2vw] font-[DM Sans] font-normal">
+              Get your tests delivered at let home collect sample from the victory <br>
+              of the managements that supplies the best design system guidelines ever.
+            </p>
+          </div>
+
+
+
+          <div class="mb-5 featCheck">
+            <div class="grid grid-cols-2 grid-rows-2 gap-y-3 grid-cols-[1fr_2fr] gap-x-0">
+              <div class="flex items-center  gap-2">
+                <div class="flex items-center justify-center text-white rounded-full h-8 w-8"
+                  style="background-color: #56BBD0;">
+                  <span class="text-lg">&check;</span>
+                </div>
+                <span class="text-lg font-semibold">HSAs and FSAs</span>
+              </div>
+
+              <div class="flex items-center  gap-2">
+                <div class="flex items-center justify-center  text-white rounded-full h-8 w-8"
+                  style="background-color: #56BBD0;">
+                  <span class="text-lg">&check;</span>
+                </div>
+                <span class="text-lg font-semibold">Commuter Benefits</span>
+              </div>
+
+              <div class="flex items-center  gap-2">
+                <div class="flex items-center justify-center text-white rounded-full h-8 w-8"
+                  style="background-color: #56BBD0;">
+                  <span class="text-lg">&check;</span>
+                </div>
+                <span class="text-lg font-semibold">Life insurance</span>
+              </div>
+
+              <div class="flex items-center  gap-2">
+                <div class="flex items-center justify-center text-white rounded-full h-8 w-8"
+                  style="background-color: #56BBD0;">
+                  <span class="text-lg">&check;</span>
+                </div>
+                <span class="text-lg font-semibold">Commuter benefits</span>
+              </div>
+            </div>
+
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+    <!-- pricing section -->
+
+    <div class="py-16 bg-white">
+      <div class="text-center mb-12">
+        <p class="text-green-500 text-lg font-semibold">Deal for your business</p>
+        <h2 class="text-4xl font-bold text-gray-800">Meet our pricing plan that suits you</h2>
+      </div>
+      <div class="container mx-auto grid grid-cols-1 md:grid-cols-5 gap-2 ">
+
+        <!-- Rating Aspect Column -->
+        <div class="col-span-1 space-y-7 mt-30">
+          <div class="">
+            <h3 class="text-lg font-semibold text-gray-700">Feature Access Library</h3>
+          </div>
+
+          <div>
+            <h3 class="text-lg font-semibold text-gray-700">Multiple Users</h3>
+          </div>
+
+          <div>
+            <h3 class="text-lg font-semibold text-gray-700">Refund Policy</h3>
+          </div>
+
+          <div>
+            <h3 class="text-lg font-semibold text-gray-700">Google Analytics</h3>
+          </div>
+
+          <div>
+            <h3 class="text-lg font-semibold text-gray-700">24/7 Support</h3>
+          </div>
+        </div>
+
+
+        <!-- Pricing Cards Column -->
+
+        <!-- Starter Pack -->
+
+        <div class="border w-full border-gray-200 rounded-lg p-6 shadow-md text-center">
+
+          <h1 class="text-1.5xl  text-gray-400 mb-4">Starter Pack</h1>
+
+
+          <p class="text-lg font-bold text-gray-900 mb-6">
+            $18.99<span class="text-sm text-gray-500">/per mo.</span>
+          </p>
+
+
+          <div class="mt-6 space-y-8">
+            <div class="flex items-center justify-center text-white rounded-full h-6 w-6 mx-auto"
+              style="background-color:#3CC68A;">
+              <span class="text-base">&check;</span>
+            </div>
+            <div class="flex items-center justify-center text-white rounded-full h-6 w-6 mx-auto"
+              style="background-color:#3CC68A;">
+              <span class="text-base">&check;</span>
+            </div>
+            <div class="flex items-center justify-center text-white rounded-full h-6 w-6 mx-auto"
+              style="background-color:#CED7E1;">
+              <span class="text-base">&times;</span>
+            </div>
+            <div class="flex items-center justify-center text-white rounded-full h-6 w-6 mx-auto"
+              style="background-color:#CED7E1;">
+              <span class="text-base">&times;</span>
+            </div>
+            <div class="flex items-center justify-center text-white rounded-full h-6 w-6 mx-auto"
+              style="background-color:#CED7E1;">
+              <span class="text-base">&times;</span>
+            </div>
+          </div>
+
+          <button class="mt-6 w-full border border-yellow-300 text-yellow-500 font-semibold py-2 rounded-lg">
+            Choose Plan
+          </button>
+
+          <p class="mt-4 text-sm text-gray-500">15 days free trial</p>
+        </div>
+
+
+
+        <!-- Premium Pack -->
+        <div class="primePack md:-translate-y-6 h-10">
+          <div class="text-center border rounded-lg text-white border-2" style="background-color: #52ACFF;">RECOMENDED
+          </div>
+          <div class="border w-full border-gray-200 bg-white-1000 rounded-lg p-6 shadow-md text-center">
+
+            <h1 class="text-1.5xl  text-gray-400 mb-4">Premium Pack</h1>
+
+            <p class="text-lg font-bold text-gray-900 mb-6">
+              $29.99<span class="text-sm text-gray-500">/per mo.</span>
+            </p>
+
+            <div class="mt-6 space-y-8">
+              <div class="flex items-center justify-center text-white rounded-full h-6 w-6 mx-auto"
+                style="background-color:#3CC68A;">
+                <span class="text-base">&check;</span>
+              </div>
+              <div class="flex items-center justify-center text-white rounded-full h-6 w-6 mx-auto"
+                style="background-color:#3CC68A;">
+                <span class="text-base">&check;</span>
+              </div>
+              <div class="flex items-center justify-center text-white rounded-full h-6 w-6 mx-auto"
+                style="background-color:#3CC68A;">
+                <span class="text-base">&check;</span>
+              </div>
+              <div class="flex items-center justify-center text-white rounded-full h-6 w-6 mx-auto"
+                style="background-color:#3CC68A;;">
+                <span class="text-base">&check;</span>
+              </div>
+              <div class="flex items-center justify-center text-white rounded-full h-6 w-6 mx-auto"
+                style="background-color:#CED7E1;">
+                <span class="text-base">&times;</span>
+              </div>
+            </div>
+
+            <button class="mt-6 w-full bg-yellow-500 text-white font-semibold py-2 rounded-lg">
+              Choose Plan
+            </button>
+
+
+            <p class="mt-4 text-sm text-gray-500">30 days free trial</p>
+          </div>
+        </div>
+
+
+
+
+        <!-- Custom Pack -->
+
+
+        <div class="border w-full border-gray-200 rounded-lg p-6 shadow-md text-center">
+
+          <h1 class="text-1.5xl  text-gray-400 mb-4">Custom Pack</h1>
+
+          <p class="text-lg font-bold text-gray-900 mb-6">
+            $23.99<span class="text-sm text-gray-500">/per mo.</span>
+          </p>
+
+          <div class="mt-6 space-y-8">
+            <div class="flex items-center justify-center text-white rounded-full h-6 w-6 mx-auto"
+              style="background-color:#3CC68A;">
+              <span class="text-base">&check;</span>
+            </div>
+            <div class="flex items-center justify-center text-white rounded-full h-6 w-6 mx-auto"
+              style="background-color:#3CC68A;">
+              <span class="text-base">&check;</span>
+            </div>
+            <div class="flex items-center justify-center text-white rounded-full h-6 w-6 mx-auto"
+              style="background-color:#3CC68A;">
+              <span class="text-base">&check;</span>
+            </div>
+            <div class="flex items-center justify-center text-white rounded-full h-6 w-6 mx-auto"
+              style="background-color:#3CC68A;">
+              <span class="text-base">&check;</span>
+            </div>
+            <div class="flex items-center justify-center text-white rounded-full h-6 w-6 mx-auto"
+              style="background-color:#CED7E1;">
+              <span class="text-base">&times;</span>
+            </div>
+          </div>
+
+
+          <button class="mt-6 w-full border border-yellow-300 text-yellow-500 font-semibold py-2 rounded-lg">
+            Choose Plan
+          </button>
+
+          <p class="mt-4 text-sm text-gray-500">30 days free trial</p>
+        </div>
+
+
+        <!-- Ultimate Pack -->
+
+
+
+        <div class="border w-full border-gray-200 rounded-lg p-6 shadow-md text-center">
+
+          <h1 class="text-1.5xl  text-gray-400 mb-4">Ultimate Pack</h1>
+
+          <p class="text-lg font-bold text-gray-900 mb-6">
+            $18.99<span class="text-sm text-gray-500">/per mo.</span>
+          </p>
+
+          <div class="mt-6 space-y-8">
+            <div class="flex items-center justify-center text-white rounded-full h-6 w-6 mx-auto"
+              style="background-color:#3CC68A;">
+              <span class="text-base">&check;</span>
+            </div>
+            <div class="flex items-center justify-center text-white rounded-full h-6 w-6 mx-auto"
+              style="background-color:#3CC68A;">
+              <span class="text-base">&check;</span>
+            </div>
+            <div class="flex items-center justify-center text-white rounded-full h-6 w-6 mx-auto"
+              style="background-color:#3CC68A;">
+              <span class="text-base">&check;</span>
+            </div>
+            <div class="flex items-center justify-center text-white rounded-full h-6 w-6 mx-auto"
+              style="background-color:#3CC68A;">
+              <span class="text-base">&check;</span>
+            </div>
+            <div class="flex items-center justify-center text-white rounded-full h-6 w-6 mx-auto"
+              style="background-color:#3CC68A;">
+              <span class="text-base">&check;</span>
+            </div>
+          </div>
+
+          <button class="mt-6 w-full border border-yellow-300 text-yellow-500 font-semibold py-2 rounded-lg">
+            Choose Plan
+          </button>
+
+          <p class="mt-4 text-sm text-gray-500">45 days free trial</p>
+        </div>
+
+
+
+      </div>
+    </div>
+
+
+
+
+    <!-- supprot section -->
+
+
+    <div class="flex relative  gap-19">
+
+
+      <div class="supportSecL w-1/2 pl-[30vw]">
+        <div class="mb-3">
+          <h3 class=" font-bold ">
+            Do you need help? Our support team is ready to help you
+          </h3>
+        </div>
+
+        <div class="mb-5">
+          <p class="">Get your tests delivered at let home collect
+            sample from the victory of the managments <br>
+            that supplies best design system guidelines ever.</p>
+        </div>
+        <div class="flex gap-1 items-center mb-5">
+          <div>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAWJAAAFiQFtaJ36AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAANTSURBVHgBtVcxTBNhFP7eWXFQkuoAidGk6IAOtE1kcQISXRgMm4mAlMSBzXZw1erqQNkYSAChgxtxcNGk4KALxqMusgCJhIiLTRQTgdzve/ffDwXa/04sX3Lp3fvv7nvv/d9790qIADWZjiOGNOD1waEueEiAENeLqPC5C6WWcMqZp3vuXJR3Uihhk/cQHmX3iEK9xBocNYVtZ5qG3TX8K7EqJoUwH5mwlgOk8jRQno5MrGaTo7yURUOgCkyeCyVWxdQke5tBI6EwRYNLw9Um58C6RNpoUgEho7NYbTKkLzoycJxJnChUjtNe2CNm9SYQUyW+SkR6/uxFfQh+LAM7PxERFexQG6u9EvMvm7whKEpYHzndDFzrB6736/NqbC4CK6/0YQf3A09Em9cRz6RWrdFKdLcn9qMUol8b7DA7cKF93/6lCHx8jhD4Ucd4b/sik66XgPePj6b2yh0gOaIzIrCT+10wBqJu21248UiTlseBz+Pa1tIJtHZqB76WdIolC+KgkIvt+6LlpV4fqdkU34XumuvnOY29L4EtTutcr97brlFNWg1DLo7cmtBOvH0AC1yH6zZdd/lSj/4tB5FKOoVUlPyBU75c1PbLPdpJIRQn5Z6mZliQiFl7sQhHIEIyBIKFnCZY4fNtjrJjZP+Zb0x+lfc83m5Ld9xBFGwFxJJqITLXCIiPAcf/ntbDn+ClJnJJsaTQRGhqW3AuKKkz1hQbVERcn/ik9j5Lmdx8psXzLqf3UcQj5CKkw43E2IwY62OeI1YLdZelbiWVsrctgahe39UiEgiBlJixCan8vrEqGjKtkJpJd/MHu1T3Jkml1LKQiKiE/H9BxHXsz1Nq1apuKSOzr1KvknojsNagmSzkEAk8mfC3uS3o1UkeceiJ9QHTFk1fPgwhXi8hnJie0qCbN5/F8KirHRCRySH1/XtD7+vmYgRSnsN2qUeGwKpBIJ3l6XAUJwrK0IDrD397DYTuuwVW2xhOCorGDKnPd2R9NjnF5iE0FDTNpJlqy5GWyTNRpqGR60gzh801ezUNlrM8zA/7Yjg2obRiyrGCa87nYX9heAiUcVcNRR4ENeEYdlGQoa7ebYSIYNXziORxl6OU/w0/+KdtTbdeZ44JXRuhwV+21U43Gtk7KAAAAABJRU5ErkJggg==" alt="">
+          </div>
+          <div>
+            <h4 class="font-semibold">Email client support <span>&rarr;</span></h4>
+            <p class="">Ultimate access to all credit popular <br>
+              exercises and assessments materials</p>
+          </div>
+        </div>
+
+
+        <div class="flex gap-1 items-center">
+          <div>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAWJAAAFiQFtaJ36AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAALaSURBVHgBtZcxb9NAFMf/57pVpC6ZKjbSCSSQmomypbCwgOSNbgl8gZCRoaojPgCJutNkY8MRE0tTNmBKpSLBVLOVTlkQKCS+vnd2kkvqxOco+UuW7Lvz/e69e/f8LGAgx5VZoJ8HpAOIAjXl6MpG3V26OtR3Blinnmt7JnMKA2CZbl9poKQpfVpEA7Cbnsv3KcFOtVeGFK45MGYBAq53aDdje2Oh7v+3CK1chmqeu15BEthx+8fkqhKWKtGgvX+ht1iTULZ02VCWLEVeHC9lDO2V6PEYq5QcVLxqpjYCO+7fHLDWpsccVis6evY2RXs3crVdXBT64I7Alnnc08ieCtoIvNi+MvD1/hrBrRRvWWXODxZFsWNi7fYt4OnuJODe7TBEvv0M8OyhRWMEDKSyoA0EewkJTEHfFNewmRH480+ifSZV++O8hatuuICXTyzqAw6aA1xcSsyXdMgEsWMKvbhk68JJNzPA/ZzAuR+oNoZxG49NtlwU2Hd5U+hBs6+sYg3dzNbrlhrCcwzOpoWydu8K9Xzuhx5ICc/ODMetrFBQFrtTh7JCN0/uJY/Rt2LeMWNwN67j6w+Jo9ZA3XPEPi9YE1BeGEezrv298bijVqDmmCGVQPxZvSedMVyfdLi/usXT0JNOgDnq0Ej5ed6IaThnKt5fhl5FvuK2FFBwtULnWHCpUk6CAwNlqf9bqqB5fzqenPf145eA+mAAJaKw2gS2qV7q89qzSXC+Hu2IEUzXu0/JwAjrfzi0WxZ/KSh71Q3fwvdfoXXJ2WmWpCqFolDd4G9k1+Q13ldz66bFxZ/dGIGV1VJWsWpx8RdVnqPD6VWV1cYuX0B1veKMKfZ6DWouYqmSVGNvlPSWGykzGrBMy+vT0FhwCF+n8kRSOSp9LC6Om0o4100l/MJwEWiXaAFpajI+HeQxuxYe1XgZ1SrhIrhEUtUKFw78Ddd/2vww9XIWtDvzgENdA6rwQh+F9GRmAAAAAElFTkSuQmCC" alt="">
+          </div>
+          <div>
+            <h4 class="font-semibold">Live ticket support<span>&&rarr;</span></h4>
+            <p class="">Total assessment corrections with <br>
+              live support tickets download access system</p>
+          </div>
+        </div>
+
+      </div>
+
+
+      <div class="supportSecR relative w-1/2">
+
+        <div class="p-5 flex items-center justify-center text-white absolute rounded-tl-3xl 
+                    rounded-tr-3xl rounded-bl-3xl top-13 h-1/4 w-1/4 right-[38vw] bg-[#5080FB] text-[1vw]">
+          Hi, I’m Frank, let me know what can I do for you &#x1F44C;
+
+        </div>
+
+        <div class="w-full h-full absolute z-[-10]">
+
+          <img class=" h-full object-cover" src="/responsive-landing-page/assets/support-sec-img1-CdBcqCrB.png" alt="">
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- Partners Section -->
+
+
+    <div>
+      <div class="flext justify-center mt-[20vh]">
+        <div>
+          <div class="text-center">
+            <h3 class="mb-4 font-bold">Company who also worked us</h3>
+            <p class="mb-4">Every email, web page, and social media post makes an impression on your
+              <br> customers.
+              With our software you can be confident it's impression.
+            </p>
+          </div>
+          <div class="flex justify-center items-center text-blue-500 cursor-pointer">
+            <span class="mr-2">Explore Details</span>
+            <span>&gt;</span>
+          </div>
+        </div>
+        <div class="pl-[10vw]">
+          <img src="/responsive-landing-page/assets/partnersSec-bg-img-CwsVZHEY.png" alt="">
+        </div>
+      </div>
+
+
+
+      <!-- blog section -->
+
+      <div class="mt-8">
+        <div class="text-center mb-10">
+          <h2 class="text-green-300 text-sm uppercase">Ideal solutions for you</h2>
+          <h1 class="text-4xl font-bold">Go beyond ultimate features</h1>
+        </div>
+
+        <div class="flex flex-wrap gap-10 justify-center">
+          <div>
+            <div>
+              <img src="/responsive-landing-page/assets/blog-sec-img-CSunex1r.png" alt="">
+            </div>
+            <h1 class="font-bold mb-4">Introducing our newest team <br>
+              with great experience</h1>
+
+            <p class="mb-4">Brian Halligan knows that you need more than <br>
+              a great product to have a great brand.</p>
+
+            <div class="flex items-center text-blue-500 cursor-pointer">
+              <span class="mr-2">Learn more</span>
+              <span>&gt;</span>
+            </div>
+
+          </div>
+
+          <div>
+            <div>
+              <img src="/responsive-landing-page/assets/blog-sec-img1-BqjDjqa6.png" alt="">
+            </div>
+            <h1 class="font-bold mb-4">New banking application has developed and we <br>
+              expecting good feedback</h1>
+
+            <div class="flex items-center text-blue-500 cursor-pointer">
+              <span class="mr-2">Learn more</span>
+              <span>&gt;</span>
+            </div>
+          </div>
+
+          <div>
+            <div class="mb-20">
+              <div class="">
+                <img src="/responsive-landing-page/assets/blog-sec-img2-BkUGTKUb.png" alt="">
+              </div>
+              <h1 class="font-bold mb-4">Ui/UX industry are doing great <br>
+                job in previous year history</h1>
+
+
+            </div>
+
+            <div>
+              <div>
+                <img src="/responsive-landing-page/assets/blog-sec-img3-C9m2ZYbB.png" alt="">
+              </div>
+              <h1 class="font-bold mb-4">Develop you design experience
+                <br>with figma features.
+              </h1>
+
+            </div>
+
+          </div>
+
+
+
+
+
+
+        </div>
+
+      </div>
+
+
+
+
+
+
+      <!-- FAQ SECTION -->
+
+      <div class="py-10">
+        <div class="max-w-7xl mx-auto px-6">
+          <div class="text-center mb-10">
+            <h2 class="text-[#00A99D] text-sm uppercase">Get your question answer</h2>
+            <h1 class="text-4xl font-bold">Frequently asked question</h1>
+          </div>
+
+          <div class="space-y-4">
+            <!-- Question 1 -->
+            <div class="grid sm:grid-cols-2 md:grid-cols-3 items-center border-b border-gray-400 py-4">
+
+              <h3 class="col-span-1 text-xl font-semibold">01. Which domain should I purchase?</h3>
+
+
+              <p class="col-span-1 text-gray-400">Get your website tests delivered at the home collect a sample ...</p>
+
+
+              <button class="col-span-1  text-right  text-2xl">+</button>
+            </div>
+
+            <!-- Question 2 -->
+            <div class="grid sm:grid-cols-2 md:grid-cols-3 items-center border-b border-gray-1500 py-4">
+
+              <h3 class="col-span-1 text-xl font-semibold">02. What are some tips when choosing a name?</h3>
+
+
+              <p class="col-span-1 text-gray-400">We make it easy to move to CometNine. Simply contact us and we'll move
+                your hosting account from any other provider...</p>
+
+
+              <button class="col-span-1 text-right  text-2xl">-</button>
+            </div>
+
+            <!-- Question 3 -->
+            <div class="grid sm:grid-cols-2 md:grid-cols-3 items-center border-b border-gray-400 py-4">
+
+              <h3 class="col-span-1 text-xl font-semibold">03. What if I need help choosing the right domain?</h3>
+
+
+              <p class="col-span-1 text-gray-400">Create a hub for cross-functional work that also works with all ...
+              </p>
+
+
+              <button class="col-span-1 text-right  text-2xl">+</button>
+            </div>
+
+            <!-- Question 4 -->
+            <div class="grid sm:grid-cols-2 md:grid-cols-3 items-center border-b border-gray-400 py-4">
+
+              <h3 class="col-span-1 text-xl font-semibold ">04. Can I upgrade or downgrade my web hosting subscription
+                system?</h3>
+
+
+              <p class="col-span-1 text-gray-400">The pricing made me a little hesitant at first but I have been ...</p>
+
+
+              <button class="col-span-1 text-right  text-2xl">+</button>
+            </div>
+
+            <!-- Question 5 -->
+            <div class="grid sm:grid-cols-2 md:grid-cols-3 items-center border-b border-gray-400 py-4">
+
+              <h3 class="col-span-1 text-xl font-semibold">05. Learn from community on Brandwagon</h3>
+
+
+              <p class="col-span-1 text-gray-400">Stop your viewers from getting distracted. Publish videos to ...</p>
+
+
+              <button class="col-span-1 text-right  text-2xl">+</button>
+            </div>
+          </div>
+
+          <!-- Contact Section -->
+          <div class="mt-10 text-center">
+            <button class="bg-gray-200 px-6 py-3 rounded-lg text-lg">Still Question? Contact us</button>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+      <!-- footer section -->
+
+
+      <div class="bg-gray-100 mt-20">
+
+        <div class="bg-gray-100">
+
+          <div class="grid sm:grid-cols-1 md:grid-cols-5 gap-20  text-center">
+
+            <div class="">
+              <h2 class="font-bold mb-5">Company</h2>
+              <h3 class="mb-3">About</h3>
+              <h3 class="mb-3">Affiliate</h3>
+              <h3 class="mb-3">Careers & Culture</h3>
+              <h3 class="mb-3">Blog</h3>
+              <h3 class="mb-3">Press</h3>
+            </div>
+
+            <div class="">
+              <h2 class="font-bold mb-5">About Us</h2>
+              <h3 class="mb-3">Support Center</h3>
+              <h3 class="mb-3"> Customer Support</h3>
+              <h3 class="mb-3">About Us</h3>
+              <h3 class="mb-3">About</h3>
+              <h3 class="mb-3"> Popular Campaign</h3>
+            </div>
+
+
+
+            <div class="">
+              <h2 class="font-bold mb-5">Our Information</h2>
+              <h3 class="mb-3"> Return Policy </h3>
+              <h3 class="mb-3"> Privacy Policy</h3>
+              <h3 class="mb-3">Terms & Conditions</h3>
+              <h3 class="mb-3">Site Map</h3>
+              <h3 class="mb-3">Store Hours</h3>
+            </div>
+
+
+
+            <div class="">
+              <h2 class="font-bold mb-5">My Account</h2>
+              <h3 class="mb-3">Press inquiries</h3>
+              <h3 class="mb-3">Social media </h3>
+              <h3 class="mb-3">directories</h3>
+              <h3 class="mb-3">Images & B-roll</h3>
+              <h3 class="mb-3">Permissions</h3>
+            </div>
+
+            <div class="">
+              <h2 class="font-bold mb-5">Policy</h2>
+              <h3 class="mb-3">Application security</h3>
+              <h3 class="mb-3">Software principles</h3>
+              <h3 class="mb-3">Unwanted software policy</h3>
+              <h3 class="mb-3">Responsible supply chain</h3>
+
+            </div>
+
+          </div>
+
+
+
+          <div class="border-t border-gray-300 w-full mt-10 mb-10"></div>
+
+
+          <!-- fottterBar -->
+
+          <div class="container mx-auto flex flex-wrap items-center justify-between mb-10">
+
+            <div class="flex items-center space-x-2">
+              <img src="data:image/png;base64,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" alt="Company Logo" class="h-8 w-8" />
+              <span class="text-lg font-semibold">StartupLanding</span>
+              <h4 class="">Copyright by 2019 mroy13, Inc</h3>
+            </div>
+
+
+            <div class="flex flex-wrap space-x-6">
+              <a href="#home" class="hover:text-gray-400">Home</a>
+              <a href="#about" class="hover:text-gray-400">Advertise</a>
+              <a href="#contact" class="hover:text-gray-400">Support</a>
+              <a href="#contact" class="hover:text-gray-400">Marketing</a>
+              <a href="#contact" class="hover:text-gray-400">FAQ</a>
+            </div>
+          </div>
+
+
+        </div>
+
+      </div>
+
+      <div>
+
+
+</body>
+
+</html>
