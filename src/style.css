@@ -23,6 +23,17 @@
     height:auto;
   
   }
+
+  
+  
+}
+
+@media (max-width: 1027px) {
+  .navSec a {
+    display: none ;
+  }
+  
+  
   
 }
 
