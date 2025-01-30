@@ -8,14 +8,14 @@ export default defineConfig({
     tailwindcss(),
   ],
   
-  // build: {
-  //   rollupOptions: {
-  //     input: {
-  //       main: resolve(__dirname, 'index.html'),
-  //       nested: resolve(__dirname, 'contact.html'),
-  //     },
-  //   },
-  // },
+  build: {
+    rollupOptions: {
+      input: {
+        main: resolve(__dirname, 'index.html'),
+        nested: resolve(__dirname, 'contact.html'),
+      },
+    },
+  },
   
-  // base: "/responsive-landing-page/"
+  base: "/responsive-landing-page/"
 })
